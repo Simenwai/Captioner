@@ -1,0 +1,130 @@
+/* page.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #e0f7fa;
+  margin: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-header {
+  background: #ffffff;
+  width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.page-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-links .page-nav12 {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.page-hero2 {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  background: #a9d6dc;
+}
+
+.outer-uploader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.center-uploader {
+  width: 600px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-contact4 {
+  width: 100%;
+  padding: 20px 0;
+  background: #a9d6dc;
+  text-align: center;
+}
+
+.page-footer {
+  background: #ffffff;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.page-separator {
+  height: 1px;
+  background: #00acc1;
+  margin: 20px 0;
+}
+
+/* Footer specific styles */
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+
+.page-container1, .page-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column; /* Added to match the structure */
+}
+
+.page-separator {
+  width: 100%;
+  height: 1px;
+  background-color: #dee2e6;
+  margin: 20px 0;
+}
+
+.page-nav1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodySmall {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.page-text2 {
+  margin-top: 10px;
+  align-self: flex-start; /* Aligns the text to the left */
+}
+
+/* Added this to left align the text in the footer */
+.page-container2 {
+  display: flex;
+  justify-content: flex-start; /* Aligns content to the left */
+  width: 100%;
+  padding-left: 20px; /* Adds padding to match the left alignment */
+}
